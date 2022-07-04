@@ -1,0 +1,58 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    color:brown
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.images{
+    width: 500px;
+    height: 500px;
+}
+.item1{
+    grid-area: MENU;
+    }
+.item2{
+    grid-area: TACOS
+}
+.item3{
+    grid-area: PIZZA
+}
+.item4{
+    grid-area: BURGER
+}
+.item5{
+    grid-area: DRINKS
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'MENU TACOS'
+    'MENU PIZZA'
+    'MENU BURGER'
+    'MENU DRINKS';
+    font-size: 30px;
+   
+    
+}
+.item1{
+    border:2px solid rgb(255, 179, 47)
+    
+   }
+   .item2{
+    border:2px solid rgb(255, 179, 47)
+   }
+   .item3{
+    border:2px solid rgb(255, 179, 47)
+   }
+   .item4{
+    border:2px solid rgb(255, 179, 47)
+   }
+   .item5{
+    border:2px solid rgb(255, 179, 47)
+   }
